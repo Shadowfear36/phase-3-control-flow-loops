@@ -1,5 +1,12 @@
 def happy_new_year
-  # your code here
+  i = 10
+  while i > 0
+    i -= 1
+    i
+    if i == 0 
+      "Happy New Year!"
+    end
+  end
 end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
